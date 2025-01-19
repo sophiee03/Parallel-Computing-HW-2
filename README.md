@@ -8,7 +8,7 @@ NB: In this repository there are references to the first deliverable [https://gi
 
 # Index
 1. [Set up the Project](#set-up-the-project)
-2. [Parallel Implementation](#parallel-implementation)
+2. [Record the timings](#record-the-timings)
 3. [Compilation and Execution](#compilation-and-execution)
 4. [Performance Analisys](#performance-analisys)
 
@@ -45,7 +45,7 @@ The result that we will find in each file is of the following type:
 
 <img src="images/example_execution.png" alt="Image 1" width="500" />
 
-***N.B.*** if you use my pbs script remember to change the folder path in which the codes is saved and the PBS directives based on your system
+***N.B.*** if you use my pbs script remember to change the folder path in which the codes are saved and the PBS directives based on your system
 
 ***N.B.*** [for windows users] if you encounter errors in the submission of the psb script, it could be a problem caused by the operating system (because you are writing in a 'windows format'). To avoid this problem use this command before submitting the job: `dos2unix script.pbs`
 
