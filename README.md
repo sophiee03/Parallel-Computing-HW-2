@@ -4,7 +4,7 @@ Homework for the second deliverable of the course "Introduction to parallel comp
 In this repository we will analyze the behavior of an MPI code execution with different number of processes and matrix sizes.
 The task to implement is a code for a matrix transposition. We will compare the wall-clock time taken and find the best solution to optimize the performance and the resource usage.  
 
-NB: In this repository there are references to the first deliverable [https://github.com/sophiee03/Parallel-Computing-HW-1/edit/main/README.md]
+NB: In this repository there are references to the [first deliverable](https://github.com/sophiee03/Parallel-Computing-HW-1/edit/main/README.md)
 
 # Index
 1. [Set up the Project](#set-up-the-project)
@@ -50,7 +50,7 @@ The result that we will find in each file is of the following type:
 ***N.B.*** [for windows users] if you encounter errors in the submission of the psb script, it could be a problem caused by the operating system (because you are writing in a 'windows format'). To avoid this problem use this command before submitting the job: `dos2unix script.pbs`
 
 ## Performance Analisys
-After we recorded a sufficient number of executions we can make the averages for each method and compare the results by calculating the speedup, that is how much the code is faster with respect to the serial one, and efficiency, that measure how efficiently the resources (threads) are utilized.
+After we recorded a sufficient number of executions we can make the averages for each combination (size-num_process) and compare the results by calculating the speedup, that is how much the code is faster with respect to the serial one, efficiency that measures how efficiently the resources are utilized and scalability that tells us how efficiently a program is able to maintain the execution time constant as we increase the problem size and processors.
 
 To calculate the speedup:
 ```Speedup = SerialTime / ParallelTime```
@@ -58,9 +58,12 @@ To calculate the speedup:
 To calculate the efficiency:
 ```Efficiency = Speedup / N_Threads```
 
+To calculate the scalability:
+```Scalability = T_serial (N) / T_parallel (p*N)```
+
 We can observe the trend of these metrics in the following graphs:
 <div style="display: flex; justify-content: space-around;">
-  <img src="images/speedupmat.png" alt="Image 1" width="500" />
+  <img src="images/speedup_mat.png" alt="Image 1" width="500" />
   <img src="images/speedupsym.png" alt="Image 2" width="500" />
 </div>
 <div style="display: flex; justify-content: space-around;">
