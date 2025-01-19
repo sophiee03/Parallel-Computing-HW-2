@@ -4,7 +4,7 @@ Homework for the second deliverable of the course "Introduction to parallel comp
 In this repository we will analyze the behavior of an MPI code execution with different number of processes and matrix sizes.
 The task to implement is a code for a matrix transposition. We will compare the wall-clock time taken and find the best solution to optimize the performance and the resource usage.  
 
-NB: In this repository there are references to the [first deliverable](https://github.com/sophiee03/Parallel-Computing-HW-1/edit/main/README.md)
+NB: In this repository there are references to the [first deliverable](https://github.com/sophiee03/Parallel-Computing-HW-1)
 
 # Index
 1. [Set up the Project](#set-up-the-project)
