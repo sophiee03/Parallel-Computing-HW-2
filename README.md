@@ -71,6 +71,6 @@ We can observe the trend of these metrics in the following graphs:
   <img src="images/efficiency_check.png" alt="Image 4" width="500" />
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="images/scalability_trans" alt="Image 5" width="500" />
-  <img src="images/scalability_check" alt="Image 6" width="500" />
+  <img src="images/scalability_trans.png" alt="Image 5" width="500" />
+  <img src="images/scalability_check.png" alt="Image 6" width="500" />
 </div>
