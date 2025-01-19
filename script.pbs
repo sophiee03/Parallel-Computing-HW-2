@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N hw
+#PBS -l select=1:ncpus=60:ompthreads=60:mem=2mb
+#PBS -l walltime=0:10:00
+#[NUMBER OF EXECUTIONS THAT WE WANT]
+#PBS -J 0-6
+#PBS -j oe
+#PBS -q short_cpuQ
+
+# Modules for C
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+
+# Select the working directory [REMEMBER TO CHANGE THIS PATH]
+cd /home/sophie.motter/exercises/homework2
+
+[REMEMBER TO COMPILE THE CODE BEFORE SUBMITTING THE SCRIPT]
+
+#run [CHANGE THESE NUMBERS TO EXECUTE WITH DIFFERENT COMBINATIONS OF MATRIX SIZE AND NUMBER OF PROCESSES]
+mpirun -np 64 ./hw 4096
