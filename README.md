@@ -63,10 +63,14 @@ To calculate the scalability:
 
 We can observe the trend of these metrics in the following graphs:
 <div style="display: flex; justify-content: space-around;">
-  <img src="images/speedup_mat.png" alt="Image 1" width="500" />
-  <img src="images/speedupsym.png" alt="Image 2" width="500" />
+  <img src="images/speedup_matt.png" alt="Image 1" width="500" />
+  <img src="images/speedup_check.png" alt="Image 2" width="500" />
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="images/efficiencymat.png" alt="Image 3" width="500" />
-  <img src="images/efficiencysym.png" alt="Image 4" width="500" />
+  <img src="images/efficiency_trans.png" alt="Image 3" width="500" />
+  <img src="images/efficiency_check.png" alt="Image 4" width="500" />
+</div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="images/scalability_trans" alt="Image 5" width="500" />
+  <img src="images/scalability_check" alt="Image 6" width="500" />
 </div>
